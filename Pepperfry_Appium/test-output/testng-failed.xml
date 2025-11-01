@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PepperfrySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PepperfrySearchTest(failed)">
+    <classes>
+      <class name="com.pepperfryapp.tests.Appium_Pepperfry_Search">
+        <methods>
+          <include name="testSearchAndOpenItem"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pepperfryapp.tests.Appium_Pepperfry_Search -->
+    </classes>
+  </test> <!-- PepperfrySearchTest(failed) -->
+</suite> <!-- Failed suite [PepperfrySuite] -->

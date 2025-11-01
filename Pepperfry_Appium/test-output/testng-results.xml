@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-01T15:55:09 IST" name="PepperfrySuite" finished-at="2025-11-01T15:55:37 IST" duration-ms="28177">
+    <groups>
+    </groups>
+    <test started-at="2025-11-01T15:55:09 IST" name="PepperfrySearchTest" finished-at="2025-11-01T15:55:37 IST" duration-ms="28177">
+      <class name="com.pepperfryapp.tests.Appium_Pepperfry_Search">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pepperfryapp.tests.Appium_Pepperfry_Search@70cf32e3]" started-at="2025-11-01T15:55:10 IST" name="setup" finished-at="2025-11-01T15:55:19 IST" duration-ms="9534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchAndSelectItem()[pri:0, instance:com.pepperfryapp.tests.Appium_Pepperfry_Search@70cf32e3]" started-at="2025-11-01T15:55:19 IST" name="testSearchAndSelectItem" finished-at="2025-11-01T15:55:34 IST" duration-ms="15097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAndSelectItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pepperfryapp.tests.Appium_Pepperfry_Search@70cf32e3]" started-at="2025-11-01T15:55:34 IST" name="tearDown" finished-at="2025-11-01T15:55:37 IST" duration-ms="3043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pepperfryapp.tests.Appium_Pepperfry_Search -->
+    </test> <!-- PepperfrySearchTest -->
+  </suite> <!-- PepperfrySuite -->
+</testng-results>
