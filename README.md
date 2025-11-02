@@ -1,1 +1,1 @@
-# PepperFry_Appium_Capestone
+# PepperFry_Appium_Capstone
