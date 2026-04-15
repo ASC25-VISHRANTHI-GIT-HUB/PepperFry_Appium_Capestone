@@ -1,0 +1,46 @@
+Started by user Vishranthi A
+Running as SYSTEM
+Building in workspace C:\Users\Ascendion\.jenkins\workspace\Pepperfry_Selenium
+[Pepperfry_Selenium] $ cmd /c call C:\Users\ASCEND~1\AppData\Local\Temp\jenkins6988032312946662016.bat
+
+C:\Users\Ascendion\.jenkins\workspace\Pepperfry_Selenium>cd C:\Users\Ascendion\Downloads\Proj1 
+
+C:\Users\Ascendion\Downloads\Proj1>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< Proj1:Proj1 >-----------------------------
+[INFO] Building Proj1 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Proj1 ---
+[INFO] Deleting C:\Users\Ascendion\Downloads\Proj1\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Proj1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Ascendion\Downloads\Proj1\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Proj1 ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding windows-1252, i.e. build is platform dependent!
+[INFO] Compiling 8 source files with javac [debug target 1.8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Proj1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Proj1 ---
+[INFO] Recompiling the module because of changed dependency.
+[WARNING] File encoding has not been set, using platform encoding windows-1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files with javac [debug target 1.8] to target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Proj1 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.656 s
+[INFO] Finished at: 2025-10-31T19:39:42+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
